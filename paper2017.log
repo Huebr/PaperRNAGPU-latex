@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.13)  25 JAN 2017 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.13)  25 JAN 2017 11:07
 entering extended mode
 **./paper2017.tex
 (paper2017.tex
@@ -521,10 +521,10 @@ Before submitting the final camera ready copy, remember to:
 
 ] (paper2017.aux) ) 
 Here is how much of TeX's memory you used:
- 2574 strings out of 493634
- 35112 string characters out of 3135239
+ 2576 strings out of 493634
+ 35118 string characters out of 3135239
  99687 words of memory out of 3000000
- 5962 multiletter control sequences out of 15000+200000
+ 5964 multiletter control sequences out of 15000+200000
  106600 words of font info for 104 fonts, out of 3000000 for 9000
  1028 hyphenation exceptions out of 8191
  27i,8n,23p,1217b,307s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -539,7 +539,7 @@ rs/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
 b><C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on paper2017.pdf (2 pages, 100648 bytes).
+Output written on paper2017.pdf (2 pages, 103202 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

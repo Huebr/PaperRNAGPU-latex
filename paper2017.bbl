@@ -31,4 +31,14 @@ V.~Kumar, \emph{Introduction to Parallel Computing}, 2nd~ed.\hskip 1em plus
   0.5em minus 0.4em\relax Boston, MA, USA: Addison-Wesley Longman Publishing
   Co., Inc., 2002.
 
+\bibitem{3}
+R.~D. Chamberlain, J.~D. Buhler, and A.~C. Jacob, ``Rapid rna folding: Analysis
+  and acceleration of the zuker recurrence,'' \emph{Field-Programmable Custom
+  Computing Machines, Annual IEEE Symposium on}, vol.~00, pp. 87--94, 2010.
+
+\bibitem{4}
+S.~S. Junjie~Li, Sanjay~Ranka, ``Multicore and gpu algorithms for nussinov rna
+  folding,'' \emph{2013 IEEE 3rd International Conference on Computational
+  Advances in Bio and Medical Sciences (ICCABS)}, vol.~00, pp. 1--2, 2013.
+
 \end{thebibliography}

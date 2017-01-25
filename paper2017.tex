@@ -1,4 +1,3 @@
-
 %% bare_conf.tex
 %% V1.3
 %% 2007/01/11
@@ -49,8 +48,6 @@
 % *** not appear when using other class files.                            ***
 % The testflow support page is at:
 % http://www.michaelshell.org/tex/testflow/
-
-
 
 % Note that the a4paper option is mainly intended so that authors in
 % countries using A4 can easily print to A4 and see how their papers will
@@ -447,7 +444,7 @@ O algoritmo clássico de RNA Folding to find the Secondary Structure utiliza com
 TODO:SUBFIGURE FUNÇÃO RECURSIVA a).
 TODO:SUBFIGURE dependencia triangular b).
 
-Vendo a função a) podemos classifica-lá como Non-serial Polyadic Dynamic Programming(NPDP) esse tipo de DP se caracteriza por possuir um dependência triangular como mostrado em b) diferente das outras classificações que geralmente são retangulares. Trabalhos resolvendo \cite{3,4}
+Vendo a função a) podemos classifica-lá como Non-serial Polyadic Dynamic Programming(NPDP) esse tipo de DP se caracteriza por possuir um dependência triangular como mostrado em b) diferente das outras classificações que geralmente são retangulares. Trabalhos resolvendo RNA Folding em GPU podem ser encontrados em \cite{3,4} porém os mesmos usam critérios diferentes recorrência de zuker e nussinov, respectivamente. Um trabalho mais generalizado para resolução de NPDP pode ser encontrado \cite{5}, como problemas NPDP possuem um nível de dependência de dados dinâmica o trabalhos citados anteriormente precisam usar múltiplas chamadas de kernel perdendo certo nível de paralelismo, nesse é utilizado um método adaptativo de threads para mapear a NPDP do problema  OMP(Optimal Matrix Parenthesization) em conjunto com método de sincronização inter-blocos \cite{6} agora usando uma chamada de kernel e utilizando de forma mais eficiente a memória compartilhada, mas mesmo que métodos NPDP possuam caracteristicas semelhantes as estruturas de acessos usadas são diferentes para cada tipo de problema. O método proposto nesse artigo utiliza-se de método de hashing para mapear a estrutura de memoization em mémoria global, acessa-lá de forma coalesced e fixando o número de threads, a ultilização de warp reduction minimizando utilização de mémoria compartilhada, sincronização inter-blocos permitindo evitando sincronização via CPU permitindo speed ups de até 100 vezes contra CPU.
 
 
 
@@ -463,7 +460,7 @@ Subsection text here.
 \subsubsection{Subsubsection Heading Here}
 Subsubsection text here.
 
-\section{Type style and Fonts}
+\section{The Parallel Model}
 Wherever Times is specified, Times Roman or Times New Roman may be used. If neither is available on your system, please use the font closest in appearance to Times. Avoid using bit-mapped fonts if possible. True-Type 1 or Open Type fonts are preferred. Please embed symbol fonts, as well, for math, etc.
 
 

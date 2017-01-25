@@ -41,4 +41,15 @@ S.~S. Junjie~Li, Sanjay~Ranka, ``Multicore and gpu algorithms for nussinov rna
   folding,'' \emph{2013 IEEE 3rd International Conference on Computational
   Advances in Bio and Medical Sciences (ICCABS)}, vol.~00, pp. 1--2, 2013.
 
+\bibitem{5}
+W.~chun Feng, C.-C. Wu, J.-Y. Ke, and H.~Lin, ``Optimizing dynamic programming
+  on graphics processing units via adaptive thread-level parallelism,''
+  \emph{Parallel and Distributed Systems, International Conference on},
+  vol.~00, pp. 96--103, 2011.
+
+\bibitem{6}
+W.~chun Feng and S.~Xiao, ``Inter-block gpu communication via fast barrier
+  synchronization,'' \emph{2010 IEEE International Symposium on Parallel &
+  Distributed Processing (IPDPS)}, vol.~00, pp. 1--12, 2010.
+
 \end{thebibliography}

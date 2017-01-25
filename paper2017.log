@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.13)  25 JAN 2017 11:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.13)  25 JAN 2017 15:09
 entering extended mode
 **./paper2017.tex
 (paper2017.tex
@@ -428,84 +428,97 @@ LaTeX Info: Redefining \] on input line 2666.
 ) (paper2017.aux)
 \openout1 = `paper2017.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 352.
-LaTeX Font Info:    ... okay on input line 352.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 352.
-LaTeX Font Info:    ... okay on input line 352.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 352.
-LaTeX Font Info:    ... okay on input line 352.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 352.
-LaTeX Font Info:    ... okay on input line 352.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 352.
-LaTeX Font Info:    ... okay on input line 352.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 352.
-LaTeX Font Info:    ... okay on input line 352.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 349.
+LaTeX Font Info:    ... okay on input line 349.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 349.
+LaTeX Font Info:    ... okay on input line 349.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 349.
+LaTeX Font Info:    ... okay on input line 349.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 349.
+LaTeX Font Info:    ... okay on input line 349.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 349.
+LaTeX Font Info:    ... okay on input line 349.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 349.
+LaTeX Font Info:    ... okay on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <5> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <7> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <11> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 352.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 349.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 408.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 405.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 445.
+(Font)              <7> on input line 442.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 445.
+(Font)              <5> on input line 442.
 
-Underfull \hbox (badness 1789) in paragraph at lines 445--446
+Underfull \hbox (badness 1789) in paragraph at lines 442--443
 []\T1/ptm/m/n/10 O al-go-ritmo clás-sico de RNA Fol-ding to find the
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 445--446
+Underfull \hbox (badness 1776) in paragraph at lines 442--443
 \T1/ptm/m/n/10 nú-me-ros de li-ga-ções en-tre ba-ses se-guindo o com-ple-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
 []\T1/ptm/m/n/10 TODO:SUBFIGURE FUN-ÇÃO RE-CUR-SIVA a).
  []
 
-(paper2017.bbl [1{C:/Users/Pedro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.
-map}
+[1{C:/Users/Pedro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-])
+]
+(paper2017.bbl
+! Misplaced alignment tab character &.
+<argument> ...nternational Symposium on Parallel &
+                                                   Distributed Processing (I...
+l.53   Distributed Processing (IPDPS)}
+                                      , vol.~00, pp. 1--12, 2010.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -521,13 +534,13 @@ Before submitting the final camera ready copy, remember to:
 
 ] (paper2017.aux) ) 
 Here is how much of TeX's memory you used:
- 2576 strings out of 493634
- 35118 string characters out of 3135239
- 99687 words of memory out of 3000000
- 5964 multiletter control sequences out of 15000+200000
+ 2578 strings out of 493634
+ 35124 string characters out of 3135239
+ 100687 words of memory out of 3000000
+ 5966 multiletter control sequences out of 15000+200000
  106600 words of font info for 104 fonts, out of 3000000 for 9000
  1028 hyphenation exceptions out of 8191
- 27i,8n,23p,1217b,307s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,23p,1547b,307s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/
 dvips/fontname/8r.enc}<C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Pedro/AppData/Local/Programs/MiKTe
@@ -539,7 +552,7 @@ rs/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
 b><C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on paper2017.pdf (2 pages, 103202 bytes).
+Output written on paper2017.pdf (2 pages, 105064 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

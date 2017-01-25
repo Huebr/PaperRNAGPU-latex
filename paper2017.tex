@@ -445,8 +445,9 @@ Algoritmos que usam programação dinâmica(DP) são geralmente algoritmos que r
 O algoritmo clássico de RNA Folding to find the Secondary Structure utiliza como critério criar o maior números de ligações entre bases seguindo o complemento de Watson-Crick, ou seja, dada as bases $b_i$ e $b_j$ $\in \{(A)denine,(C)ytosine,(G)uanine,(U)racil\}$ apenas pareamentos C-G e A-U são permitidos, devem haver no mínimo 4 bases entre i e j e as ligações de dois pares diferentes não podem se cruzar. Dados esse parâmetros e que $OPT(i,j)$ é o número máximo de bases entre i e j podemos chegar a seguinte função de recursão:
 
 TODO:SUBFIGURE FUNÇÃO RECURSIVA a).
+TODO:SUBFIGURE dependencia triangular b).
 
-Vendo a função a) podemos classifica-lá como Non-serial Polyadic Dynamic Programming(NPDP)
+Vendo a função a) podemos classifica-lá como Non-serial Polyadic Dynamic Programming(NPDP) esse tipo de DP se caracteriza por possuir um dependência triangular como mostrado em b) diferente das outras classificações que geralmente são retangulares. 
 
 
 

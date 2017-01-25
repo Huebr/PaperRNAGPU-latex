@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.13)  25 JAN 2017 10:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.13)  25 JAN 2017 10:21
 entering extended mode
 **./paper2017.tex
 (paper2017.tex
@@ -496,7 +496,16 @@ Underfull \hbox (badness 1776) in paragraph at lines 445--446
 \T1/ptm/m/n/10 nú-me-ros de li-ga-ções en-tre ba-ses se-guindo o com-ple-
  []
 
-(paper2017.bbl)
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--449
+[]\T1/ptm/m/n/10 TODO:SUBFIGURE FUN-ÇÃO RE-CUR-SIVA a).
+ []
+
+(paper2017.bbl [1{C:/Users/Pedro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.
+map}
+
+
+])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -508,11 +517,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/Pedro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[2
 
-
-]
-(paper2017.aux) ) 
+] (paper2017.aux) ) 
 Here is how much of TeX's memory you used:
  2574 strings out of 493634
  35112 string characters out of 3135239
@@ -521,20 +528,20 @@ Here is how much of TeX's memory you used:
  106600 words of font info for 104 fonts, out of 3000000 for 9000
  1028 hyphenation exceptions out of 8191
  27i,8n,23p,1217b,307s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dv
-ips/fontname/8r.enc}<C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Pedro/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Pedro/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Pedro/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
-/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/U
-sers/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb>
-<C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
-pfb><C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utm
-ri8a.pfb>
-Output written on paper2017.pdf (1 page, 100060 bytes).
+{C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/
+dvips/fontname/8r.enc}<C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Pedro/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Pedro/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Pedro/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
+/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pf
+b><C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8
+a.pfb><C:/Users/Pedro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on paper2017.pdf (2 pages, 100648 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

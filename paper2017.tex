@@ -437,13 +437,19 @@ Algoritmos que usam programação dinâmica(DP) são geralmente algoritmos que r
 
 \begin{description}[\IEEEsetlabelwidth{Non-Serial}\IEEEusemathlabelsep]
 \item[Serial] Se subproblemas dependem apenas de subproblemas de camadas anteriores.
-\item[Non-Serial] Se subproblemas não dependem apenas de subproblemas de camadas anteriores.
+\item[Non-serial] Se subproblemas não dependem apenas de subproblemas de camadas anteriores.
 \item[Monodiac] Se a função recursiva possui apenas um fator de resolução.
 \item[Polyadic] Se a função recursiva possui mais de um fator de resolução.
 \end{description}
 
-O algoritmo clássico de RNA Folding to find the Secondary Structure utiliza como critério o maior numeros de ligações 
-entre bases seguindo o complemento de Watson-Crick, ou seja , dada as bases $b_i$ e $b_j$ $\in \{(A)denine,(C)ytosine,(G)uanine,(U)racil\}$ apenas pareamentos C-G e A-U são permitidos,devem haver no mínimo 4 bases entre i e j e as ligações de dois pares diferentes não podem se cruzar. Dados esse parâmetros e que $OPT(i,j)$ é o número máximo de bases entre i e j podemos chegar a seguinte função de recursão:\[OPT(i,j) = \begin{cases} 0, & \mbox{if } \mbox{ $i \geq j-4$} \\ OPT(i,j-1), & \mbox{if } n\mbox{ i cannot pair with j}\\ 1+max_t{OPT(i,t-1) + \\OPT(t+1,j-1)}, &\mbox{if } \mbox{t can pair with j\\ and $i \leq t$ < j-4} \end{cases}\]
+O algoritmo clássico de RNA Folding to find the Secondary Structure utiliza como critério criar o maior números de ligações entre bases seguindo o complemento de Watson-Crick, ou seja, dada as bases $b_i$ e $b_j$ $\in \{(A)denine,(C)ytosine,(G)uanine,(U)racil\}$ apenas pareamentos C-G e A-U são permitidos, devem haver no mínimo 4 bases entre i e j e as ligações de dois pares diferentes não podem se cruzar. Dados esse parâmetros e que $OPT(i,j)$ é o número máximo de bases entre i e j podemos chegar a seguinte função de recursão:
+
+TODO:SUBFIGURE FUNÇÃO RECURSIVA a).
+
+Vendo a função a) podemos classifica-lá como Non-serial Polyadic Dynamic Programming(NPDP)
+
+
+
 
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issu\begin{itemize}

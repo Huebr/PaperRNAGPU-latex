@@ -451,9 +451,26 @@ Vendo a função a) podemos classifica-lá como Non-serial Polyadic Dynamic Prog
 
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issu\begin{itemize}
+\section{CUDA API}
+
+
+
+
 \section{The Parallel Model}
 
-Modelos NPDP como o problema em estudo possuem subproblemas independentes entre si na mesma diagonal assim se considerarmos o passo de resolver paralelamente uma diagonal como.
+Modelos NPDP como o problema em estudo possuem subproblemas independentes entre si na mesma diagonal assim se considerarmos o passo de resolver paralelamente uma diagonal como uma fase depois de k fases teremos a solução veja figura c).
+TODO:SUBFIGURE c) matrix sendo resolvida em onda
+
+Além de resolvermos o problema seguindo um modelo em onda devemos resolver cada subproblema em paralelo pois os mesmos escolhem um array de subproblemas e escolhem o maior valor e isto pode ser solucionado fazendo uma redução como em d).
+
+TODO:SUBFIGURE d) subproblema gera array reduzir array.
+
+Dadas as considerações anteriores faremos o seguinte, cada subproblema será resolvido em um SM e todos os SM's tem que estar na mesma fase de execução ao resolverem uma diagonal os SM's podem passar para próxima fase para garantir isso usaremos o métodos de sincronização inter-blocos chamado gpu\_ sync, cada subproblema sendo resolvido irá escolher os elementos que seram resolvidos pelo método de "warp reduce" com um bloco de tamanho fixo no caso 1024 threads e ao final da fase k teremos a solução na matrix de memoization em memória global no device.
+
+TODO:algorithmcs e) algoritmo resolução
+
+
+
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.

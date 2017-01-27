@@ -451,15 +451,15 @@ Vendo a função a) podemos classifica-lá como Non-serial Polyadic Dynamic Prog
 
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issu\begin{itemize}
-\section{CUDA API}
 
+\section{CUDA API}
 
 
 
 \section{The Parallel Model}
 
 Modelos NPDP como o problema em estudo possuem subproblemas independentes entre si na mesma diagonal assim se considerarmos o passo de resolver paralelamente uma diagonal como uma fase depois de k fases teremos a solução veja figura c).
-TODO:SUBFIGURE c) matrix sendo resolvida em onda
+\\TODO:SUBFIGURE c) matrix sendo resolvida em onda
 
 Além de resolvermos o problema seguindo um modelo em onda devemos resolver cada subproblema em paralelo pois os mesmos escolhem um array de subproblemas e escolhem o maior valor e isto pode ser solucionado fazendo uma redução como em d).
 
@@ -469,7 +469,14 @@ Dadas as considerações anteriores faremos o seguinte, cada subproblema será r
 
 TODO:algorithmcs e) algoritmo resolução
 
+\section{Sincronização Inter-bloco}
 
+ Em \cite{6} são mostrados dois métodos de sincronização um lock-based  e outro lock-free por motivos de performance foi ultilizado o método lock-free. Nesse método possuimos um array de entrada, um array de saída e um valor objetivo que será diferente para cada fase, na medida com que as threads chamam gpu\_sync (figura f) ) as threads entram na barreira \_\_syncthreads(), a thread 0 em cada bloco muda o valor do seu respectivo bloco no array de entrada para o valor objetivo e fica em espera verificando se o seu respectivo valor no array de saida é igual ao valor objetivo, ao perceber a igualdade a thread irá entrar na barreira e permitira que o bloco continue a execução para próxima fase, o bloco número 1 é responsável por verificar se todo os valores do array de entrada são iguais ao objetivo então irá preencher o array de saída com valor objetivo.
+
+TODO:Subfigure f) e g) algoritmo
+
+A sincronização inter-bloco permiti uma ganho sobre sincronização baseada em CPU já que esta possui um overhead de trocas CPU-GPU, passando a lançar somente um kernel figure g) e permite ultilizar
+a memória compartilhada para cachear subproblemas já resolvidos.
 
 
 % An example of a floating figure using the graphicx package.
